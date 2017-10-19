@@ -1,0 +1,7 @@
+<rules><dependencies><lib name="Qt5Sensors"><depends>
+<jar file="jar/QtSensors.jar" initClass="org.qtproject.qt5.android.sensors.QtSensors" />
+<jar bundling="1" file="jar/QtSensors-bundled.jar" initClass="org.qtproject.qt5.android.sensors.QtSensors" />
+<lib file="plugins/sensors/libqtsensors_android.so"  />
+<bundled file="plugins/sensors" />
+<bundled file="plugins/sensorgestures" />
+</depends></lib></dependencies></rules>

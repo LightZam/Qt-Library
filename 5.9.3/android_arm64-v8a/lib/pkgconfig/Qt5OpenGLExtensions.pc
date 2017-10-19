@@ -1,0 +1,14 @@
+prefix=/Users/Zam/Documents/Qt/android/arm64-v8a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 OpenGLExtensions
+Description: Qt OpenGLExtensions module
+Version: 5.9.3
+Libs: -L${libdir} -lQt5OpenGLExtensions 
+Libs.private: -L/usr/local/Cellar/openssl/1.0.2k/lib -L/usr/local/Cellar/android-ndk/r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a -L/usr/local/Cellar/android-ndk/r10e/toolchains/aarch64-linux-android-4.9/prebuilt/darwin-x86_64/bin/../lib/gcc/aarch64-linux-android/4.9 -L/Users/Zam/Documents/Qt/android/arm64-v8a/lib -lQt5Gui -lQt5Core -lgnustl_shared -lgcc -llog -lz -lm -ldl -lc -lGLESv2 
+Cflags: -I${includedir}/QtOpenGLExtensions -I${includedir}
+Requires: Qt5Core Qt5Gui
+

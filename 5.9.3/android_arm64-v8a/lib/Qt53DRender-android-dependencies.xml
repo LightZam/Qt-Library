@@ -1,0 +1,5 @@
+<rules><dependencies><lib name="Qt53DRender"><depends>
+<bundled file="plugins/sceneparsers" />
+<bundled file="plugins/geometryloaders" />
+<bundled file="plugins/renderplugins" />
+</depends></lib></dependencies></rules>

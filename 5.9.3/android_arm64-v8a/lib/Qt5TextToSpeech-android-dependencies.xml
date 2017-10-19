@@ -1,0 +1,6 @@
+<rules><dependencies><lib name="Qt5TextToSpeech"><depends>
+<jar file="jar/QtTextToSpeech.jar"  />
+<jar bundling="1" file="jar/QtTextToSpeech-bundled.jar"  />
+<lib file="plugins/texttospeech/libqttexttospeech_android.so"  />
+<bundled file="plugins/texttospeech" />
+</depends></lib></dependencies></rules>
