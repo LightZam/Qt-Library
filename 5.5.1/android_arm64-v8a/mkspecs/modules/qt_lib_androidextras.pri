@@ -1,0 +1,17 @@
+QT.androidextras.VERSION = 5.5.1
+QT.androidextras.MAJOR_VERSION = 5
+QT.androidextras.MINOR_VERSION = 5
+QT.androidextras.PATCH_VERSION = 1
+QT.androidextras.name = QtAndroidExtras
+QT.androidextras.libs = $$QT_MODULE_LIB_BASE
+QT.androidextras.rpath = /Users/Zam/Documents/android_arm64-v8a/lib
+QT.androidextras.includes = $$QT_MODULE_INCLUDE_BASE $$QT_MODULE_INCLUDE_BASE/QtAndroidExtras
+QT.androidextras.bins = $$QT_MODULE_BIN_BASE
+QT.androidextras.libexecs = $$QT_MODULE_LIBEXEC_BASE
+QT.androidextras.plugins = $$QT_MODULE_PLUGIN_BASE
+QT.androidextras.imports = $$QT_MODULE_IMPORT_BASE
+QT.androidextras.qml = $$QT_MODULE_QML_BASE
+QT.androidextras.depends = core
+QT.androidextras.module_config =
+QT.androidextras.DEFINES = QT_ANDROIDEXTRAS_LIB
+QT_MODULES += androidextras

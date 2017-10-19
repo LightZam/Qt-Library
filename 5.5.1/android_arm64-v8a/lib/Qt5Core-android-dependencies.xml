@@ -1,0 +1,9 @@
+<rules><dependencies><lib name="Qt5Core"><depends>
+<jar file="jar/QtAndroid.jar"  />
+<jar file="jar/QtAndroidAccessibility.jar"  />
+<jar bundling="1" file="jar/QtAndroid-bundled.jar"  />
+<jar bundling="1" file="jar/QtAndroidAccessibility-bundled.jar"  />
+<lib file="plugins/platforms/android/libqtforandroid.so"  />
+<permission name="android.permission.INTERNET" />
+<permission name="android.permission.WRITE_EXTERNAL_STORAGE" />
+</depends></lib></dependencies></rules>

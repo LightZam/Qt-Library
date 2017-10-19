@@ -1,0 +1,14 @@
+prefix=/Users/Zam/Documents/android_arm64-v8a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 QmlDevTools
+Description: Qt QmlDevTools module
+Version: 5.5.1
+Libs: -L${libdir} -lQt5QmlDevTools 
+Libs.private: -L/usr/local/Cellar/openssl/1.0.1i/lib -L/Users/Zam/Documents/android_arm64-v8a/lib -lQt5Bootstrap -framework Foundation -framework CoreServices   
+Cflags: -I${includedir}/QtQmlDevTools -I${includedir}
+Requires: Qt5Bootstrap
+

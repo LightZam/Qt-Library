@@ -1,0 +1,13 @@
+prefix=/Users/Zam/Documents/android_arm64-v8a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Bootstrap
+Description: Qt Bootstrap module
+Version: 5.5.1
+Libs: -L${libdir} -lQt5Bootstrap 
+Libs.private: -L/usr/local/Cellar/openssl/1.0.1i/lib -framework Foundation -framework CoreServices  
+Cflags: -I${includedir}/QtBootstrap -I${includedir}
+

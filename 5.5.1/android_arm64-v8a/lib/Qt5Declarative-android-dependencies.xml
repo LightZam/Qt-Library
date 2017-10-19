@@ -1,0 +1,4 @@
+<rules><dependencies><lib name="Qt5Declarative"><depends>
+<bundled file="imports" />
+<bundled file="plugins/qml1tooling" />
+</depends></lib></dependencies></rules>

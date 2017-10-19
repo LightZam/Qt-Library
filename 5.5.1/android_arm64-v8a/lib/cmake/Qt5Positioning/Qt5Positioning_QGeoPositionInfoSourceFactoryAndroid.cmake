@@ -1,0 +1,6 @@
+
+add_library(Qt5::QGeoPositionInfoSourceFactoryAndroid MODULE IMPORTED)
+
+_populate_Positioning_plugin_properties(QGeoPositionInfoSourceFactoryAndroid RELEASE "position/libqtposition_android.so")
+
+list(APPEND Qt5Positioning_PLUGINS Qt5::QGeoPositionInfoSourceFactoryAndroid)

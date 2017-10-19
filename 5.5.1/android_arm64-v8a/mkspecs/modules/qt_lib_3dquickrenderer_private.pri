@@ -1,0 +1,9 @@
+QT.3dquickrenderer_private.VERSION = 5.5.1
+QT.3dquickrenderer_private.MAJOR_VERSION = 5
+QT.3dquickrenderer_private.MINOR_VERSION = 5
+QT.3dquickrenderer_private.PATCH_VERSION = 1
+QT.3dquickrenderer_private.name = Qt3DQuickRenderer
+QT.3dquickrenderer_private.libs = $$QT_MODULE_LIB_BASE
+QT.3dquickrenderer_private.includes = $$QT_MODULE_INCLUDE_BASE/Qt3DQuickRenderer/5.5.1 $$QT_MODULE_INCLUDE_BASE/Qt3DQuickRenderer/5.5.1/Qt3DQuickRenderer
+QT.3dquickrenderer_private.depends = 3dquickrenderer
+QT.3dquickrenderer_private.module_config = internal_module no_link

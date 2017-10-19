@@ -1,0 +1,7 @@
+<rules><dependencies><lib name="Qt5Quick"><depends>
+<lib file="lib/libQt5QuickParticles.so"  />
+<bundled file="qml" />
+<bundled file="lib/libQt5QuickParticles.so" />
+<bundled file="plugins/accessible/libqtaccessiblequick.so" />
+<bundled file="plugins/scenegraph" />
+</depends></lib></dependencies></rules>

@@ -1,0 +1,9 @@
+QT.3dcore_private.VERSION = 5.5.1
+QT.3dcore_private.MAJOR_VERSION = 5
+QT.3dcore_private.MINOR_VERSION = 5
+QT.3dcore_private.PATCH_VERSION = 1
+QT.3dcore_private.name = Qt3DCore
+QT.3dcore_private.libs = $$QT_MODULE_LIB_BASE
+QT.3dcore_private.includes = $$QT_MODULE_INCLUDE_BASE/Qt3DCore/5.5.1 $$QT_MODULE_INCLUDE_BASE/Qt3DCore/5.5.1/Qt3DCore
+QT.3dcore_private.depends = 3dcore
+QT.3dcore_private.module_config = internal_module no_link

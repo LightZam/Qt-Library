@@ -1,0 +1,14 @@
+prefix=/Users/Zam/Documents/android_arm64-v8a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 UiTools
+Description: Qt UiTools module
+Version: 5.5.1
+Libs: -L${libdir} -lQt5UiTools 
+Libs.private: -L/Users/Zam/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a -L/Users/Zam/Downloads/android-ndk-r10e/platforms/android-21/arch-arm64//usr/lib -L/usr/local/Cellar/openssl/1.0.1i/lib -L/Users/Zam/Documents/android_arm64-v8a/lib -lQt5Widgets -lQt5Gui -lQt5Core -lgnustl_shared -llog -lz -lm -ldl -lc -lgcc -lGLESv2  
+Cflags: -I${includedir}/QtUiTools -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets Qt5UiPlugin
+

@@ -1,0 +1,7 @@
+<rules><dependencies><lib name="Qt5Network"><depends>
+<jar file="jar/QtAndroidBearer.jar"  />
+<jar bundling="1" file="jar/QtAndroidBearer-bundled.jar"  />
+<lib file="plugins/bearer/libqandroidbearer.so"  />
+<bundled file="plugins/bearer" />
+<permission name="android.permission.ACCESS_NETWORK_STATE" />
+</depends></lib></dependencies></rules>

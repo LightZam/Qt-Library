@@ -1,0 +1,6 @@
+<rules><dependencies><lib name="Qt5Bluetooth"><depends>
+<jar file="jar/QtAndroidBluetooth.jar" initClass="org.qtproject.qt5.android.bluetooth.QtBluetoothBroadcastReceiver" />
+<jar bundling="1" file="jar/QtAndroidBluetooth-bundled.jar" initClass="org.qtproject.qt5.android.bluetooth.QtBluetoothBroadcastReceiver" />
+<permission name="android.permission.BLUETOOTH" />
+<permission name="android.permission.BLUETOOTH_ADMIN" />
+</depends></lib></dependencies></rules>

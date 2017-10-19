@@ -1,0 +1,15 @@
+prefix=/Users/Zam/Documents/android_arm64-v8a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+host_bins=${prefix}/bin
+qt_config=minimal-config small-config medium-config large-config full-config no-pkg-config evdev accessibility egl eglfs opengl opengles2 shared qpa reduce_exports clock-gettime clock-monotonic posix_fallocate mremap getaddrinfo ipv6ifname inotify eventfd png freetype harfbuzz system-zlib openssl rpath concurrent audio-backend release
+
+Name: Qt5 Core
+Description: Qt Core module
+Version: 5.5.1
+Libs: -L${libdir} -lQt5Core 
+Libs.private: -L/Users/Zam/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a -L/Users/Zam/Downloads/android-ndk-r10e/platforms/android-21/arch-arm64//usr/lib -L/usr/local/Cellar/openssl/1.0.1i/lib -L/Users/Zam/Documents/android_arm64-v8a/lib -lqtpcre -L/Users/Zam/Downloads/android-ndk-r10e/sources/cxx-stl/gnu-libstdc++/4.9/libs/arm64-v8a -L/Users/Zam/Downloads/android-ndk-r10e/platforms/android-21/arch-arm64//usr/lib -L/usr/local/Cellar/openssl/1.0.1i/lib -lgnustl_shared -llog -lz -lc -lgcc -lm -ldl  
+Cflags: -I${includedir}/QtCore -I${includedir}
+
