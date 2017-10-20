@@ -4,6 +4,7 @@ This repository keep Qt's arm64-v8a binary, you can just download to your locati
 
 
 ## Build arm64-v8a yourself
+### mac version
 ```
 git clone git://code.qt.io/qt/qt5.git qt5
 cd qt5
@@ -38,9 +39,13 @@ make -j4 install
 
 ```
 
+if you are linux or windows, change `-android-ndk-host` to your platform setting
+
+`You must use android r10e NDK, because other version will cause bug`
+
 Add qt.conf to `Qt/android_arm64-v8a/bin/qt.conf`
 
-### Change Qt Library location by qt.conf 's content
+### Change Qt Library location by qt.conf
 you are allow to move library everywhere since you put this file.
 ```
 [Paths]
