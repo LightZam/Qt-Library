@@ -41,6 +41,7 @@ make -j4 install
 Add qt.conf to `Qt/android_arm64-v8a/bin/qt.conf`
 
 ### qt.conf 's content
+you are allow to move library everywhere since you put this file.
 ```
 [Paths]
 Prefix: ..
