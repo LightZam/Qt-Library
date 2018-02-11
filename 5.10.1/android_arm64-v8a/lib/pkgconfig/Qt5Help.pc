@@ -1,0 +1,13 @@
+prefix=/Users/Zam/Documents/Qt5.9/android_arm64-v8a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Help
+Description: Qt Help module
+Version: 5.10.1
+Libs: -L${libdir} -lQt5Help 
+Cflags: -DQT_HELP_LIB -I${includedir}/QtHelp -I${includedir}
+Requires: Qt5Core Qt5Gui Qt5Widgets Qt5Sql
+

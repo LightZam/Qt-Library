@@ -1,0 +1,13 @@
+prefix=/Users/Zam/Documents/Qt5.9/android_arm64-v8a
+exec_prefix=${prefix}
+libdir=${prefix}/lib
+includedir=${prefix}/include
+
+
+Name: Qt5 Bluetooth
+Description: Qt Bluetooth module
+Version: 5.10.1
+Libs: -L${libdir} -lQt5Bluetooth 
+Cflags: -DQT_BLUETOOTH_LIB -I${includedir}/QtBluetooth -I${includedir}
+Requires: Qt5Core
+

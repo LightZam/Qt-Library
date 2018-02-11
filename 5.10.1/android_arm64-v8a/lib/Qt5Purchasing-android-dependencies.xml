@@ -1,0 +1,5 @@
+<rules><dependencies><lib name="Qt5Purchasing"><depends>
+<jar file="jar/QtPurchasing.jar"  />
+<jar bundling="1" file="jar/QtPurchasing-bundled.jar"  />
+<permission name="com.android.vending.BILLING" />
+</depends></lib></dependencies></rules>

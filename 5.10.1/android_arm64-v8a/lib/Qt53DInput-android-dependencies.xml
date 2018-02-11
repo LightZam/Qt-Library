@@ -1,0 +1,3 @@
+<rules><dependencies><lib name="Qt53DInput"><depends>
+<bundled file="plugins/3dinputdevices" />
+</depends></lib></dependencies></rules>

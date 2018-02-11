@@ -1,0 +1,7 @@
+<rules><dependencies><lib name="Qt5Gamepad"><depends>
+<jar file="jar/QtAndroidGamepad.jar"  />
+<jar bundling="1" file="jar/QtAndroidGamepad-bundled.jar"  />
+<lib file="plugins/gamepads/libandroidgamepad.so"  />
+<bundled file="plugins/gamepads" />
+<feature name="android.hardware.gamepad" />
+</depends></lib></dependencies></rules>

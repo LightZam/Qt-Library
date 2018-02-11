@@ -1,0 +1,4 @@
+<rules><dependencies><lib name="Qt5AndroidExtras"><depends>
+<jar file="jar/QtAndroidExtras.jar"  />
+<jar bundling="1" file="jar/QtAndroidExtras-bundled.jar"  />
+</depends></lib></dependencies></rules>
